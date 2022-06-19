@@ -1,0 +1,7 @@
+---
+- name: Intall docker
+  hosts: target2
+  
+  become: yes
+  roles:
+    - docker
